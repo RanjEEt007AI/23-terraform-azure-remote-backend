@@ -14,7 +14,7 @@ provider "azurerm" {
   features {} 
   subscription_id = ""
 }
-
+## After creating Resources then Remove this "#"
 # terraform {
 #   backend "azurerm" {
 #     resource_group_name  = "ranjeet-demo-rg"
